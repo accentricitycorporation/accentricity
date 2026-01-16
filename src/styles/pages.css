@@ -1,0 +1,13 @@
+.contactBar{
+  margin-top: var(--s3);
+  display:flex;
+  gap: 12px;
+  flex-wrap:wrap;
+}
+.contactMeta{
+  margin-top: var(--s3);
+  color: var(--muted);
+  display:grid;
+  gap: 8px;
+}
+

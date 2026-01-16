@@ -1,0 +1,16 @@
+:root {
+  --black: #0a0a0a;
+  --white: #ffffff;
+  --border: #eaeaea;
+
+  --max-width: 1200px;
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-lg: 56px;
+  --space-xl: 96px;
+
+  --font-main: -apple-system, BlinkMacSystemFont, "Inter",
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

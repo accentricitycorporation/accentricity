@@ -1,0 +1,76 @@
+:root{
+  --bg:#ffffff;
+  --text:#0a0a0a;
+  --muted:#666666;
+  --border:#eaeaea;
+  --shadow: 0 10px 30px rgba(0,0,0,0.06);
+
+  --radius: 16px;
+  --radius-sm: 12px;
+
+  --container: 1120px;
+
+  --s1: 8px;
+  --s2: 16px;
+  --s3: 24px;
+  --s4: 32px;
+  --s5: 48px;
+  --s6: 72px;
+  --s7: 96px;
+
+  --font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family: var(--font);
+  color:var(--text);
+  background:var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{ color:inherit; text-decoration:none; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible{
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
+.container{
+  width: min(100% - 32px, var(--container));
+  margin: 0 auto;
+}
+
+.muted{ color:var(--muted); }
+.small{ font-size: 0.92rem; }
+.hr{
+  border:0;
+  border-top:1px solid var(--border);
+  margin: var(--s3) 0;
+}
+
+.skip{
+  position:absolute;
+  top:-40px;
+  left:16px;
+  background:#fff;
+  border:1px solid var(--border);
+  padding:8px 10px;
+  border-radius:10px;
+  z-index:999;
+}
+.skip:focus{ top:12px; }
+
+.fade{
+  opacity:0;
+  transform: translateY(10px);
+  transition: opacity 550ms ease, transform 650ms ease;
+}
+.fade--in{ opacity:1; transform: translateY(0); }
+
+@media (prefers-reduced-motion: reduce){
+  .fade{ opacity:1; transform:none; transition:none; }
+}
