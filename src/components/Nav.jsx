@@ -26,7 +26,7 @@ export default function Nav() {
 
       <div className="nav__inner container">
         <Link to="/" className="brand" aria-label="Accentricity Corp Home" >
-          <span className="brand__mark" aria-hidden="true" ><img src="logo.png" alt="Accentricity Corp Logo" /></span>
+          <span className="brand__mark" aria-hidden="true" ><img className="brand__mark" src="logo.png" alt="Accentricity Corp Logo" /></span>
           <span className="brand__text">Accentricity</span>
         </Link>
 
