@@ -25,8 +25,8 @@ export default function Nav() {
       <a className="skip" href="#main">Skip to content</a>
 
       <div className="nav__inner container">
-        <Link to="/" className="brand" aria-label="Accentricity Corp Home">
-          <span className="brand__mark" aria-hidden="true">A</span>
+        <Link to="/" className="brand" aria-label="Accentricity Corp Home" href="/logo.png">
+          {/* <span className="brand__mark" aria-hidden="true">A</span> */}
           <span className="brand__text">Accentricity</span>
         </Link>
 
