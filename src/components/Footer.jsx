@@ -15,8 +15,8 @@ export default function Footer() {
           </div>
 
           <div className="footer__meta">
-            <div><span className="muted">Email:</span> accentricitycorporation@gmail.com</div>
-            <div><span className="muted">Phone:</span> +91 89786 76960 | +1 571 631 9490</div>
+            <div><span className="muted">Email:</span> contact@accentricity.co </div>
+            <div><span className="muted">Phone:</span> +91 6309882002 | +1 571 631 9490</div>
             <div><span className="muted">Locations:</span> Hyderabad, India | Washington DC, USA</div>
           </div>
         </div>

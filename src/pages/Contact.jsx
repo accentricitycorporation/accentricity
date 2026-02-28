@@ -11,17 +11,17 @@ export default function Contact() {
           <p className="pageHero__lead">Short calls. Clear next steps.</p>
 
           <div className="contactBar">
-            <a className="btn btn--primary" href="#" aria-label="Calendly booking placeholder">
+            <a className="btn btn--primary" href="https://calendly.com/accentricitycorporation/30min" aria-label="Calendly booking placeholder">
               Book a Call
             </a>
-            <a className="btn btn--secondary" href="#" aria-label="WhatsApp link placeholder">
+            <a className="btn btn--secondary" href="https://wa.me/916309882002" aria-label="WhatsApp link placeholder">
               WhatsApp
             </a>
           </div>
 
           <div className="contactMeta">
-            <div><span className="muted">Email:</span> accentricitycorporation@gmail.com</div>
-            <div><span className="muted">Phone:</span> +91 89786 76960 | +1 571 631 9490</div>
+            <div><span className="muted">Email:</span> contact@accentricity.co </div>
+            <div><span className="muted">Phone:</span> +91 6309882002 | +1 571 631 9490</div>
           </div>
         </div>
       </FadeInSection>
